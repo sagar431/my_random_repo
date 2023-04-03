@@ -35,6 +35,15 @@ def math_operation_via_postman():
         num2 = int(request.json['num2'])
         if(operation=='add'):
             r=num1+num2
+
+
+
+
+
+
+
+
+# class Definations for flask class
             result= 'the sum of '+str(num1)+' and '+str(num2) +' is '+str(r)
         if (operation == 'subtract'):
             r = num1 - num2
