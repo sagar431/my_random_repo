@@ -58,7 +58,10 @@ def math_operation_via_postman():
 
 
 if __name__ == '__main__':
+    host="127.0.01"
+    port=8080
     app.run(host="127.0.0.1", port=8080,debug=True)
+
 #New varible to be defined 
 # new varbile to be defined 
 # New varible to be defined
